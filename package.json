@@ -1,0 +1,13 @@
+{
+  "name": "ean-inteligencia-academica",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "build": "npm --prefix modulos/mexico ci && npm --prefix modulos/mexico run build",
+    "test": "node --test tests/publicacion.test.cjs"
+  }
+}

@@ -1,0 +1,15 @@
+.referentes-curriculares{margin:24px 0;color:var(--pm-text,inherit)}
+.referentes-curriculares>h4{font-size:1.15rem;font-weight:750;margin-bottom:10px}
+.referentes-curriculares>article{border:1px solid var(--pm-border,#526578);border-radius:14px;padding:22px;margin-top:18px;background:var(--pm-card,transparent)}
+.referentes-curriculares header strong{font-size:.85rem;color:var(--pm-accent,#40bdb0)}
+.referentes-curriculares h5{font-size:1.1rem;font-weight:750;margin:6px 0}
+.referentes-curriculares header span,.referentes-curriculares p{line-height:1.6;font-size:.9rem}
+.referentes-curriculares p{margin:12px 0}
+.referentes-curriculares .ref-table{overflow-x:auto;margin:18px 0}
+.referentes-curriculares table{width:100%;border-collapse:collapse;font-size:.85rem;min-width:480px}
+.referentes-curriculares th,.referentes-curriculares td{text-align:left;padding:12px;border-bottom:1px solid var(--pm-border,#526578);vertical-align:top}
+.referentes-curriculares h6{font-weight:750;font-size:.95rem;margin-top:12px}
+.referentes-curriculares ul{list-style:disc;padding-left:22px;font-size:.9rem;line-height:1.6}
+.referentes-curriculares .ref-stat{border-left:3px solid var(--pm-accent,#40bdb0);padding-left:12px}
+.referentes-curriculares nav{display:flex;gap:12px 22px;flex-wrap:wrap;font-size:.85rem}
+.referentes-curriculares a{text-decoration:underline;color:var(--pm-accent,#40bdb0)}

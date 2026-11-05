@@ -1,0 +1,204 @@
+{
+  "revision": "2026-11-04",
+  "origen_sha256": "af8b75ec9dded0ce8e74f2c1809843082482f1b4db71cb68aee2711df790586f",
+  "fuentes": [
+    {
+      "id": "MC09",
+      "titulo": "AIMX/OCC · Educación en línea en México 2023",
+      "anio_datos": 2023,
+      "publicacion": "2024-01",
+      "muestra": 3631,
+      "ambito": "Internautas que estudian o tienen interés en estudiar; muestra en línea, no exclusiva de licenciaturas virtuales.",
+      "metodo": "Encuesta autoaplicada en noviembre de 2023. El estudio también incluye reclutadores; no se mezclan sus respuestas con estos gráficos.",
+      "secciones": "Medios de información; elección de institución; necesidades de formación.",
+      "url": "https://irp.cdn-website.com/81280eda/files/uploaded/Educaci%C3%B3n%20en%20l%C3%ADnea%202023%20VF%2015%20ene.pdf",
+      "verificacion": "PDF_ORIGINAL_CONSULTADO_2026_11_04"
+    },
+    {
+      "id": "MC08",
+      "titulo": "AIMX · Hábitos de los usuarios de internet 2026",
+      "anio_datos": 2026,
+      "publicacion": "2026-05",
+      "muestra": 1200,
+      "ambito": "Personas de 18 años o más, panel en línea urbano de México.",
+      "metodo": "La versión pública no precisa fechas de campo ni edades de las generaciones. Las redes no se segmentan aquí por edad.",
+      "secciones": "Metodología; cuentas activas en redes.",
+      "url": "https://irp.cdn-website.com/81280eda/files/uploaded/Estudio-Habitos-de-los-Usuarios-de-Internet-2026-Version-publica.pdf",
+      "verificacion": "PDF_ORIGINAL_CONSULTADO_2026_11_04"
+    }
+  ],
+  "grupos": [
+    {
+      "id": "busqueda",
+      "titulo": "Dónde buscan información educativa",
+      "fuente": "MC09",
+      "base": 3631,
+      "unidad": "% de respuestas de la muestra",
+      "lectura": "Medio principal declarado; el redondeo publicado puede impedir que sume 100.",
+      "items": [
+        {
+          "id_origen": 670,
+          "nombre": "Internet",
+          "valor": 58,
+          "anio": 2023
+        },
+        {
+          "id_origen": 671,
+          "nombre": "Contacto con la universidad",
+          "valor": 18,
+          "anio": 2023
+        },
+        {
+          "id_origen": 672,
+          "nombre": "WhatsApp",
+          "valor": 12,
+          "anio": 2023
+        },
+        {
+          "id_origen": 673,
+          "nombre": "Recomendaciones",
+          "valor": 5,
+          "anio": 2023
+        },
+        {
+          "id_origen": 674,
+          "nombre": "Teléfono",
+          "valor": 3,
+          "anio": 2023
+        },
+        {
+          "id_origen": 675,
+          "nombre": "Ferias",
+          "valor": 3,
+          "anio": 2023
+        }
+      ]
+    },
+    {
+      "id": "eleccion",
+      "titulo": "Qué valoran al elegir universidad",
+      "fuente": "MC09",
+      "base": 3631,
+      "unidad": "% de participantes · selección múltiple",
+      "lectura": "Cuatro factores seleccionados del estudio; no representan una distribución exhaustiva.",
+      "items": [
+        {
+          "id_origen": 682,
+          "nombre": "Reconocimiento",
+          "valor": 44,
+          "anio": 2023
+        },
+        {
+          "id_origen": 683,
+          "nombre": "Costo y financiación",
+          "valor": 30,
+          "anio": 2023
+        },
+        {
+          "id_origen": 684,
+          "nombre": "Propuesta pedagógica",
+          "valor": 30,
+          "anio": 2023
+        },
+        {
+          "id_origen": 685,
+          "nombre": "Referencias favorables",
+          "valor": 28,
+          "anio": 2023
+        }
+      ]
+    },
+    {
+      "id": "necesidades",
+      "titulo": "Qué esperan de su formación",
+      "fuente": "MC09",
+      "base": 3631,
+      "unidad": "% de respuestas de la muestra",
+      "lectura": "Tres necesidades seleccionadas; no se aplica este porcentaje a una ciudad o grupo de edad.",
+      "items": [
+        {
+          "id_origen": 690,
+          "nombre": "Flexibilidad",
+          "valor": 26,
+          "anio": 2023
+        },
+        {
+          "id_origen": 691,
+          "nombre": "Calidad docente",
+          "valor": 14,
+          "anio": 2023
+        },
+        {
+          "id_origen": 692,
+          "nombre": "Vínculo laboral",
+          "valor": 13,
+          "anio": 2023
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "titulo": "Redes con cuenta activa",
+      "fuente": "MC08",
+      "base": 1200,
+      "unidad": "% de participantes · selección múltiple",
+      "lectura": "Uso declarado en un panel urbano de adultos; no preferencia para recibir información educativa.",
+      "items": [
+        {
+          "id_origen": 738,
+          "nombre": "WhatsApp",
+          "valor": 91,
+          "anio": 2026
+        },
+        {
+          "id_origen": 739,
+          "nombre": "Facebook",
+          "valor": 85,
+          "anio": 2026
+        },
+        {
+          "id_origen": 740,
+          "nombre": "YouTube",
+          "valor": 62,
+          "anio": 2026
+        },
+        {
+          "id_origen": 741,
+          "nombre": "TikTok",
+          "valor": 58,
+          "anio": 2026
+        },
+        {
+          "id_origen": 742,
+          "nombre": "Instagram",
+          "valor": 58,
+          "anio": 2026
+        },
+        {
+          "id_origen": 743,
+          "nombre": "LinkedIn",
+          "valor": 15,
+          "anio": 2026
+        }
+      ]
+    }
+  ],
+  "alcance": "Resultados nacionales de muestras publicadas; no estimación de interesados EAN ni tasas municipales o por edad.",
+  "aplicacion": [
+    {
+      "paso": "Descubrimiento",
+      "propuesta": "Investigar buscadores, redes y una página institucional como vías de primera consulta.",
+      "evidencia": "La búsqueda educativa y el uso de redes se muestran en gráficos separados; no se estiman conversiones."
+    },
+    {
+      "paso": "Comparación",
+      "propuesta": "Contrastar reconocimiento, costo total y flexibilidad de la oferta EAN con los referentes mexicanos.",
+      "evidencia": "La selección de factores sirve para diseñar preguntas y evaluar la propuesta académica."
+    },
+    {
+      "paso": "Contacto",
+      "propuesta": "Evaluar WhatsApp como canal de conversación y seguimiento voluntario.",
+      "evidencia": "La cuenta activa no equivale a preferencia educativa. La respuesta real debe medirse con el público investigado."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.mapa18{width:100%;min-width:0;display:flex;flex-direction:column;flex:1;gap:10px;color:var(--pm-text)}
+.mapa18-bar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:3px 3px 0}
+.mapa18-bar strong{font-size:13px;font-weight:850;display:block}
+.mapa18-bar span{color:var(--pm-sub);font-size:10px;display:block;margin-top:3px}
+.mapa18-buttons button{background:#18344a;border:1px solid #43687c;border-radius:9px;color:#d0f8ff;font-weight:700;font-size:10px;padding:8px 10px}
+.mapa18-buttons button:disabled{opacity:.4;cursor:default}
+.mapa18-canvas{height:min(53vw,530px);min-height:360px;position:relative;overflow:hidden;border-radius:14px;background:radial-gradient(ellipse at 42% 44%,#10394b 0%,#0b1e32 52%,#061421 100%);border:1px solid #194154}
+.mapa18-canvas svg{height:100%;width:100%;display:block;filter:drop-shadow(0 12px 15px #0005)}
+.mapa18-geo{transform-origin:0 0;transition:transform .55s cubic-bezier(.2,.75,.25,1)}
+.mapa18-state{cursor:pointer;stroke-linejoin:round;transition:fill .2s,opacity .22s;filter:drop-shadow(0 1px 1px #02101799)}
+.mapa18-state:hover{fill:#d5fff2!important;opacity:1!important;filter:drop-shadow(0 0 7px #59fbd8aa)}
+.mapa18-state.is-selected{filter:drop-shadow(0 0 7px #57d9dbcc)}
+.mapa18-label{paint-order:stroke;stroke:#102b3c;fill:#f1ffff;font-weight:800;letter-spacing:.015em;opacity:.92}
+.mapa18-hover{position:absolute;bottom:14px;right:15px;background:#0b1d31e8;border:1px solid #315f77;border-radius:12px;padding:12px 15px;min-width:155px;max-width:45%;pointer-events:none;box-shadow:0 10px 30px #0006}
+.mapa18-hover span,.mapa18-hover small{display:block;color:#b2d1e4;font-size:10px}.mapa18-hover strong{display:block;font-size:25px;color:#abfce8;line-height:1.25;margin:4px 0;font-variant-numeric:tabular-nums}
+.mapa18-legend{display:flex;align-items:center;flex-wrap:wrap;gap:4px;font-size:10px;color:var(--pm-sub)}.mapa18-legend i{width:16px;height:9px;display:inline-block;border-radius:3px}.mapa18-empty{background:#172b3b;border:1px solid #45718b}.mapa18-source{margin-left:auto}
+:root[data-theme=light] .mapa18-canvas{background:radial-gradient(ellipse,#c9e6ef,#a6cadc)}
+@media(max-width:700px){.mapa18-canvas{height:390px;min-height:300px}.mapa18-legend .mapa18-source{width:100%;margin-left:0}.mapa18-hover{min-width:125px}.mapa18-hover strong{font-size:19px}}

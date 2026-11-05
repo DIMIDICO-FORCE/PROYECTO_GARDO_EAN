@@ -1,0 +1,597 @@
+{
+  "version": "EAN-0.2",
+  "fecha": "2026-11-04",
+  "cobertura": [
+    {
+      "id": "EAN-REV-20261104-1",
+      "programa_id": "economia",
+      "programa_mexico": "Licenciatura en Economía · SUAyED a distancia",
+      "institucion": "Universidad Nacional Autónoma de México · Facultad de Economía",
+      "precio_mxn": null,
+      "precio_promocional_mxn": null,
+      "unidad": "APORTACION_VOLUNTARIA",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": null,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Derecho a examen e identificación: $490 MXN en la convocatoria noviembre 2026; no es colegiatura ni inscripción académica. La convocatoria describe examen presencial: distinguir modalidad de carrera de logística de admisión.",
+      "notas": "SUAyED informa que inscripción y reinscripción son aportaciones voluntarias, sin monto fijo publicado en esta FAQ. No se transforman en una mensualidad cero. El examen de selección tiene una cuota separada para la convocatoria de noviembre 2026.",
+      "modalidad_publicada": "A distancia · SUAyED",
+      "tipo_institucion": "PUBLICA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://faq-escolar.cuaed.unam.mx/index.php?action=faq&artlang=es&cat=1&id=9",
+      "url_programa": "https://oferta.unam.mx/carrera.php?c=economia",
+      "fuentes": [
+        {
+          "url": "https://oferta.unam.mx/carrera.php?c=economia",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://faq-escolar.cuaed.unam.mx/index.php?action=faq&artlang=es&cat=1&id=9",
+          "uso": "SUAyED: inscripción y reinscripción como aportación voluntaria; otros trámites con costo"
+        },
+        {
+          "url": "https://case.unam.mx/ingreso/convocatorias/convocatoria-suayed-noviembre-2026",
+          "uso": "Concurso noviembre 2026: derecho a examen e identificación"
+        }
+      ],
+      "observacion_unica": "https://oferta.unam.mx/carrera.php?c=economia",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": false,
+      "estado_precio": "APORTACION_VOLUNTARIA_SIN_MONTO_FIJO",
+      "otros_costos": [
+        {
+          "concepto": "Examen de selección e identificación · noviembre 2026",
+          "monto_mxn": 490,
+          "unidad": "PAGO_UNICO",
+          "url": "https://case.unam.mx/ingreso/convocatorias/convocatoria-suayed-noviembre-2026"
+        }
+      ],
+      "programa_cun": "ECONOMÍA"
+    },
+    {
+      "id": "EAN-REV-20261104-2",
+      "programa_id": "administracion-en-salud",
+      "programa_mexico": "Licenciatura en Gerencia de Servicios de Salud",
+      "institucion": "Universidad Abierta y a Distancia de México",
+      "precio_mxn": 0,
+      "precio_promocional_mxn": null,
+      "unidad": "SERVICIOS_ACADEMICOS_GRATUITOS",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": 0,
+      "costos_adicionales": "Equipo, conectividad, desplazamientos, prácticas y gastos personales no se consideran cubiertos por esta gratuidad.",
+      "notas": "UnADM publica gratuidad de los servicios educativos; es un referente público con subsidio estatal, separado del precio privado. La admisión requiere nacionalidad mexicana y convocatoria; no es una oferta comercial abierta sin requisitos.",
+      "modalidad_publicada": "Abierta y a distancia",
+      "tipo_institucion": "PUBLICA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://www.unadmexico.mx/preguntas-frecuentes",
+      "url_programa": "https://www.unadmexico.mx/division-de-ciencias-de-la-salud-biologicas-y-ambientales/gerencia-de-servicios-de-salud",
+      "fuentes": [
+        {
+          "url": "https://www.unadmexico.mx/division-de-ciencias-de-la-salud-biologicas-y-ambientales/gerencia-de-servicios-de-salud",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://www.unadmexico.mx/preguntas-frecuentes",
+          "uso": "Preguntas frecuentes: gratuidad de servicios y requisitos de nacionalidad mexicana"
+        },
+        {
+          "url": "https://www.unadmexico.mx/convocatoria2026/tulugar/",
+          "uso": "Convocatoria 2026: licenciaturas a distancia gratuitas"
+        }
+      ],
+      "observacion_unica": "https://www.unadmexico.mx/division-de-ciencias-de-la-salud-biologicas-y-ambientales/gerencia-de-servicios-de-salud#gratuidad",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": true,
+      "estado_precio": "GRATUIDAD_INSTITUCIONAL_PUBLICADA",
+      "otros_costos": [],
+      "programa_cun": "ADMINISTRACIÓN EN SALUD"
+    },
+    {
+      "id": "EAN-REV-20261104-3",
+      "programa_id": "ingenieria-de-produccion",
+      "programa_mexico": "Licenciatura en Ingeniería Industrial · referente afín de Producción",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 4000,
+      "precio_promocional_mxn": 2420,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, talleres, carga y elegibilidad de promociones; no se infiere el costo total del título.",
+      "notas": "Misma observación de Ingeniería Industrial UTEL usada para EAN Industrial; se vincula también a Producción por afinidad productiva. No es una nueva institución ni una observación independiente para totales de mercado. La promoción debe confirmarse por jornada, cohorte y condiciones.",
+      "modalidad_publicada": "En línea · separar de opciones ejecutiva e híbrida",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+      "url_programa": "https://utel.edu.mx/licenciatura-en-ingenieria-industrial",
+      "fuentes": [
+        {
+          "url": "https://utel.edu.mx/licenciatura-en-ingenieria-industrial",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+          "uso": "Colegiatura mensual de lista, promoción e inscripción gratuita"
+        }
+      ],
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": true,
+      "estado_precio": "TARIFA_Y_PROMOCION_PUBLICADAS",
+      "otros_costos": [],
+      "programa_cun": "INGENIERÍA DE PRODUCCIÓN"
+    },
+    {
+      "id": "EAN-REV-20261104-4",
+      "programa_id": "lenguas-modernas",
+      "programa_mexico": "Licenciatura en Lenguas Extranjeras · en línea",
+      "institucion": "Universidad del Valle de México",
+      "precio_mxn": null,
+      "precio_promocional_mxn": null,
+      "unidad": "COTIZACION_REQUERIDA",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": null,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Cotización completa por cohorte, carga, beca, inscripción, reinscripción y titulación pendiente. No se usaron tarifas presenciales ni otros campus como sustituto.",
+      "notas": "La ficha UVM confirma la opción en línea y remite a calcular beca y colegiatura con datos del aspirante. No publica una tarifa abierta verificable para esta selección.",
+      "modalidad_publicada": "No escolarizada · en línea",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://uvm.mx/oferta-academica/licenciaturas-ejecutivas/ciencias-sociales-online/lenguas-extranjeras-en-linea",
+      "url_programa": "https://uvm.mx/oferta-academica/licenciaturas-ejecutivas/ciencias-sociales-online/lenguas-extranjeras-en-linea",
+      "fuentes": [
+        {
+          "url": "https://uvm.mx/oferta-academica/licenciaturas-ejecutivas/ciencias-sociales-online/lenguas-extranjeras-en-linea",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://uvm.mx/oferta-academica/licenciaturas-ejecutivas/ciencias-sociales-online/lenguas-extranjeras-en-linea",
+          "uso": "Calculadora de beca y colegiatura requiere datos personales"
+        }
+      ],
+      "observacion_unica": "https://uvm.mx/oferta-academica/licenciaturas-ejecutivas/ciencias-sociales-online/lenguas-extranjeras-en-linea",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": false,
+      "estado_precio": "COTIZACION_REQUERIDA",
+      "otros_costos": [],
+      "programa_cun": "LENGUAS MODERNAS"
+    },
+    {
+      "id": "EAN-REV-20261104-5",
+      "programa_id": "mercadeo-y-estrategia-comercial",
+      "programa_mexico": "Licenciatura en Mercadotecnia Internacional",
+      "institucion": "Universidad Abierta y a Distancia de México",
+      "precio_mxn": 0,
+      "precio_promocional_mxn": null,
+      "unidad": "SERVICIOS_ACADEMICOS_GRATUITOS",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": 0,
+      "costos_adicionales": "Equipo, conectividad, desplazamientos, prácticas y gastos personales no se consideran cubiertos por esta gratuidad.",
+      "notas": "UnADM publica gratuidad de los servicios educativos; es un referente público con subsidio estatal, separado del precio privado. La admisión requiere nacionalidad mexicana y convocatoria; no es una oferta comercial abierta sin requisitos.",
+      "modalidad_publicada": "A distancia · UnADM",
+      "tipo_institucion": "PUBLICA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://www.unadmexico.mx/preguntas-frecuentes",
+      "url_programa": "https://www.unadmexico.mx/convocatoria2026/dcsa_mi.html",
+      "fuentes": [
+        {
+          "url": "https://www.unadmexico.mx/convocatoria2026/dcsa_mi.html",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://www.unadmexico.mx/preguntas-frecuentes",
+          "uso": "Preguntas frecuentes: gratuidad de servicios y requisitos de nacionalidad mexicana"
+        },
+        {
+          "url": "https://www.unadmexico.mx/convocatoria2026/tulugar/",
+          "uso": "Convocatoria 2026: licenciaturas a distancia gratuitas"
+        }
+      ],
+      "observacion_unica": "https://www.unadmexico.mx/convocatoria2026/dcsa_mi.html#gratuidad",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": true,
+      "estado_precio": "GRATUIDAD_INSTITUCIONAL_PUBLICADA",
+      "otros_costos": [],
+      "programa_cun": "MERCADEO Y ESTRATEGIA COMERCIAL"
+    },
+    {
+      "id": "EAN-REV-20261104-6",
+      "programa_id": "psicologia",
+      "programa_mexico": "Licenciatura en Psicología · SUAyED a distancia",
+      "institucion": "Universidad Nacional Autónoma de México · FES Iztacala",
+      "precio_mxn": null,
+      "precio_promocional_mxn": null,
+      "unidad": "APORTACION_VOLUNTARIA",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": null,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Derecho a examen e identificación: $490 MXN en la convocatoria noviembre 2026; no es colegiatura ni inscripción académica. La convocatoria describe examen presencial: distinguir modalidad de carrera de logística de admisión.",
+      "notas": "SUAyED informa que inscripción y reinscripción son aportaciones voluntarias, sin monto fijo publicado en esta FAQ. No se transforman en una mensualidad cero. El examen de selección tiene una cuota separada para la convocatoria de noviembre 2026.",
+      "modalidad_publicada": "A distancia · plataforma virtual",
+      "tipo_institucion": "PUBLICA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://faq-escolar.cuaed.unam.mx/index.php?action=faq&artlang=es&cat=1&id=9",
+      "url_programa": "https://www.iztacala.unam.mx/nuevo_ingreso/?page_id=1128",
+      "fuentes": [
+        {
+          "url": "https://www.iztacala.unam.mx/nuevo_ingreso/?page_id=1128",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://faq-escolar.cuaed.unam.mx/index.php?action=faq&artlang=es&cat=1&id=9",
+          "uso": "SUAyED: inscripción y reinscripción como aportación voluntaria; otros trámites con costo"
+        },
+        {
+          "url": "https://case.unam.mx/ingreso/convocatorias/convocatoria-suayed-noviembre-2026",
+          "uso": "Concurso noviembre 2026: derecho a examen e identificación"
+        }
+      ],
+      "observacion_unica": "https://www.iztacala.unam.mx/nuevo_ingreso/?page_id=1128",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": false,
+      "estado_precio": "APORTACION_VOLUNTARIA_SIN_MONTO_FIJO",
+      "otros_costos": [
+        {
+          "concepto": "Examen de selección e identificación · noviembre 2026",
+          "monto_mxn": 490,
+          "unidad": "PAGO_UNICO",
+          "url": "https://case.unam.mx/ingreso/convocatorias/convocatoria-suayed-noviembre-2026"
+        }
+      ],
+      "programa_cun": "PSICOLOGÍA"
+    },
+    {
+      "id": "EAN-REV-20261104-7",
+      "programa_id": "ingenieria-en-inteligencia-artificial",
+      "programa_mexico": "Licenciatura en Inteligencia Artificial",
+      "institucion": "UNIR México",
+      "precio_mxn": null,
+      "precio_promocional_mxn": null,
+      "unidad": "COTIZACION_REQUERIDA",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": null,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar precio neto, beca y duración efectiva, inscripción, condiciones de titulación y fecha de apertura. No convertir un porcentaje de beca en una tarifa absoluta.",
+      "notas": "La propuesta UNIR México está anunciada para enero 2027. Su FAQ indica asesoría para un plan económico personalizado; no se localizó una tarifa pública específica de IA.",
+      "modalidad_publicada": "100 % en línea; exámenes en línea",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://mexico.unir.net/ingenieria/licenciatura-inteligencia-artificial/",
+      "url_programa": "https://mexico.unir.net/ingenieria/licenciatura-inteligencia-artificial/",
+      "fuentes": [
+        {
+          "url": "https://mexico.unir.net/ingenieria/licenciatura-inteligencia-artificial/",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://mexico.unir.net/estudia-con-nosotros/preguntas-frecuentes/",
+          "uso": "FAQ 10: precio personalizado mediante asesores; no monto público"
+        }
+      ],
+      "observacion_unica": "https://mexico.unir.net/ingenieria/licenciatura-inteligencia-artificial/",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": false,
+      "estado_precio": "COTIZACION_REQUERIDA_APERTURA_2027",
+      "otros_costos": [],
+      "programa_cun": "INGENIERÍA EN INTELIGENCIA ARTIFICIAL"
+    }
+  ],
+  "nota": "Se distingue captura revisada de antecedente; cada registro conserva fecha, unidad y estado de la fuente.",
+  "registros": [
+    {
+      "id": "EAN-VER-002",
+      "programa_id": "administracion-de-empresas",
+      "programa_mexico": "Licenciatura en Gestión y Desarrollo Empresarial",
+      "institucion": "Universidad Virtual del Estado de Guanajuato",
+      "precio_mxn": 345,
+      "precio_promocional_mxn": null,
+      "unidad": "MODULO_4_SEMANAS",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "EXU $500 MXN; para alumnos extranjeros la fuente declara cuotas al doble. Titulación de licenciatura $1.090 MXN, certificado $910 MXN; verificar condición del aspirante.",
+      "notas": "Tarifa 2026 por una materia de cuatro semanas, no por una carga académica completa. La fuente dice que no se paga inscripción. La afinidad con Administración EAN requiere revisión curricular.",
+      "modalidad_publicada": "100 % EN LÍNEA",
+      "tipo_institucion": "PÚBLICA ESTATAL",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://uveg.edu.mx/info-lgde",
+      "observacion_unica": "https://uveg.edu.mx/info-lgde",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "programa_cun": "ADMINISTRACIÓN DE EMPRESAS"
+    },
+    {
+      "id": "EAN-OBS-2",
+      "programa_id": "administracion-de-empresas",
+      "programa_mexico": "Licenciatura en Administración",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 3500,
+      "precio_promocional_mxn": 2350,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, carga, país y elegibilidad de promociones. Los costos no encontrados no se sustituyen por cero.",
+      "notas": "Coincidencia o afinidad de denominación, sin revisión curricular aprobada. Los importes de lista y promoción se muestran separados; no se garantiza tarifa futura.",
+      "modalidad_publicada": "EN LÍNEA · según ficha",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-administracion",
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-administracion",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "captura": "adaptacion-01.html",
+      "captura_sha256": "ed4ebd8b3cb6da1071325cd6dcd86b3b1eff89e6e47e1f42182225c76328bb3c",
+      "programa_cun": "ADMINISTRACIÓN DE EMPRESAS"
+    },
+    {
+      "id": "EAN-OBS-3",
+      "programa_id": "contaduria-publica",
+      "programa_mexico": "Licenciatura en Contaduría Pública",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 3500,
+      "precio_promocional_mxn": 2350,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, carga, país y elegibilidad de promociones. Los costos no encontrados no se sustituyen por cero.",
+      "notas": "Coincidencia o afinidad de denominación, sin revisión curricular aprobada. Los importes de lista y promoción se muestran separados; no se garantiza tarifa futura.",
+      "modalidad_publicada": "EN LÍNEA · según ficha",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-contaduria-publica",
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-contaduria-publica",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "captura": "adaptacion-03.html",
+      "captura_sha256": "89d59e67fd33baf26b0b3d8c6eef63d268332cb64454ef3ceefa05ee39c5c96b",
+      "programa_cun": "CONTADURÍA PÚBLICA"
+    },
+    {
+      "id": "EAN-OBS-4",
+      "programa_id": "ingenieria-de-sistemas",
+      "programa_mexico": "Ingeniería en Sistemas Computacionales",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 4000,
+      "precio_promocional_mxn": 2420,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, carga, país y elegibilidad de promociones. Los costos no encontrados no se sustituyen por cero.",
+      "notas": "Coincidencia o afinidad de denominación, sin revisión curricular aprobada. Los importes de lista y promoción se muestran separados; no se garantiza tarifa futura.",
+      "modalidad_publicada": "EN LÍNEA · según ficha",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-ingenieria-en-sistemas-computacionales",
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-ingenieria-en-sistemas-computacionales",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "captura": "adaptacion-04.html",
+      "captura_sha256": "d09d4d6a520449548e3c0d15f59434873ddb9ca5c76a4dd0616a2481a5124172",
+      "programa_cun": "INGENIERÍA DE SISTEMAS"
+    },
+    {
+      "id": "EAN-OBS-5",
+      "programa_id": "ingenieria-industrial",
+      "programa_mexico": "Ingeniería Industrial",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 4000,
+      "precio_promocional_mxn": 2420,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, carga, país y elegibilidad de promociones. Los costos no encontrados no se sustituyen por cero.",
+      "notas": "Coincidencia o afinidad de denominación, sin revisión curricular aprobada. Los importes de lista y promoción se muestran separados; no se garantiza tarifa futura.",
+      "modalidad_publicada": "EN LÍNEA · según ficha",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "captura": "adaptacion-05.html",
+      "captura_sha256": "7d2bbad4abb5581d3d71f6f1395a0f4073693119ee94ecf6bb1db5afc9af5fd0",
+      "programa_cun": "INGENIERÍA INDUSTRIAL"
+    },
+    {
+      "id": "EAN-OBS-8",
+      "programa_id": "negocios-internacionales",
+      "programa_mexico": "Licenciatura en Negocios Internacionales",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 3500,
+      "precio_promocional_mxn": 2350,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, carga, país y elegibilidad de promociones. Los costos no encontrados no se sustituyen por cero.",
+      "notas": "Coincidencia o afinidad de denominación, sin revisión curricular aprobada. Los importes de lista y promoción se muestran separados; no se garantiza tarifa futura.",
+      "modalidad_publicada": "EN LÍNEA · según ficha",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-negocios-internacionales",
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-negocios-internacionales",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "captura": "adaptacion-08.html",
+      "captura_sha256": "307f77c9b190c4e25ca18e17cb0fcd9e44a49073b2a169a78a9fd3ba21833e2e",
+      "programa_cun": "NEGOCIOS INTERNACIONALES"
+    },
+    {
+      "id": "EAN-OBS-9",
+      "programa_id": "mercadeo-y-estrategia-comercial",
+      "programa_mexico": "Licenciatura en Mercadotecnia",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 3500,
+      "precio_promocional_mxn": 2350,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, carga, país y elegibilidad de promociones. Los costos no encontrados no se sustituyen por cero.",
+      "notas": "Coincidencia o afinidad de denominación, sin revisión curricular aprobada. Los importes de lista y promoción se muestran separados; no se garantiza tarifa futura.",
+      "modalidad_publicada": "EN LÍNEA · según ficha",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/mercadotecnia",
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/mercadotecnia",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "captura": "adaptacion-09.html",
+      "captura_sha256": "50078f1deebb740466c6ce455ce8ef8c8e6fcc48305c82028f2649b89ea86664",
+      "programa_cun": "MERCADEO Y ESTRATEGIA COMERCIAL"
+    },
+    {
+      "id": "EAN-OBS-11",
+      "programa_id": "psicologia",
+      "programa_mexico": "Licenciatura en Psicología · UVE en colaboración con Utel",
+      "institucion": "Universidad Virtual Educanet de México · colaboración Utel",
+      "precio_mxn": 2595,
+      "precio_promocional_mxn": null,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFIN_DENOMINACION",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, carga, país y elegibilidad de promociones. Los costos no encontrados no se sustituyen por cero.",
+      "notas": "La ficha identifica a UVE como emisora y colaboración con Utel; confirmar el registro, prácticas y reconocimiento aplicable. No equivale automáticamente a Psicología EAN.",
+      "modalidad_publicada": "EN LÍNEA · según ficha",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-03",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-psicologia-clinica",
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/licenciatura-en-linea-en-psicologia-clinica",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_03",
+      "nivel": "PREGRADO",
+      "captura": "adaptacion-12.html",
+      "captura_sha256": "d9c2ae897ffd5e0ac4665c9c9bedf1347c46ccf53277c5656267ff5e5f759b07",
+      "programa_cun": "PSICOLOGÍA"
+    },
+    {
+      "id": "EAN-REV-20261104-2",
+      "programa_id": "administracion-en-salud",
+      "programa_mexico": "Licenciatura en Gerencia de Servicios de Salud",
+      "institucion": "Universidad Abierta y a Distancia de México",
+      "precio_mxn": 0,
+      "precio_promocional_mxn": null,
+      "unidad": "SERVICIOS_ACADEMICOS_GRATUITOS",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": 0,
+      "costos_adicionales": "Equipo, conectividad, desplazamientos, prácticas y gastos personales no se consideran cubiertos por esta gratuidad.",
+      "notas": "UnADM publica gratuidad de los servicios educativos; es un referente público con subsidio estatal, separado del precio privado. La admisión requiere nacionalidad mexicana y convocatoria; no es una oferta comercial abierta sin requisitos.",
+      "modalidad_publicada": "Abierta y a distancia",
+      "tipo_institucion": "PUBLICA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://www.unadmexico.mx/preguntas-frecuentes",
+      "url_programa": "https://www.unadmexico.mx/division-de-ciencias-de-la-salud-biologicas-y-ambientales/gerencia-de-servicios-de-salud",
+      "fuentes": [
+        {
+          "url": "https://www.unadmexico.mx/division-de-ciencias-de-la-salud-biologicas-y-ambientales/gerencia-de-servicios-de-salud",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://www.unadmexico.mx/preguntas-frecuentes",
+          "uso": "Preguntas frecuentes: gratuidad de servicios y requisitos de nacionalidad mexicana"
+        },
+        {
+          "url": "https://www.unadmexico.mx/convocatoria2026/tulugar/",
+          "uso": "Convocatoria 2026: licenciaturas a distancia gratuitas"
+        }
+      ],
+      "observacion_unica": "https://www.unadmexico.mx/division-de-ciencias-de-la-salud-biologicas-y-ambientales/gerencia-de-servicios-de-salud#gratuidad",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": true,
+      "estado_precio": "GRATUIDAD_INSTITUCIONAL_PUBLICADA",
+      "otros_costos": [],
+      "programa_cun": "ADMINISTRACIÓN EN SALUD"
+    },
+    {
+      "id": "EAN-REV-20261104-3",
+      "programa_id": "ingenieria-de-produccion",
+      "programa_mexico": "Licenciatura en Ingeniería Industrial · referente afín de Producción",
+      "institucion": "Universidad UTEL",
+      "precio_mxn": 4000,
+      "precio_promocional_mxn": 2420,
+      "unidad": "MENSUALIDAD",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": null,
+      "costos_adicionales": "Confirmar reinscripción, titulación, talleres, carga y elegibilidad de promociones; no se infiere el costo total del título.",
+      "notas": "Misma observación de Ingeniería Industrial UTEL usada para EAN Industrial; se vincula también a Producción por afinidad productiva. No es una nueva institución ni una observación independiente para totales de mercado. La promoción debe confirmarse por jornada, cohorte y condiciones.",
+      "modalidad_publicada": "En línea · separar de opciones ejecutiva e híbrida",
+      "tipo_institucion": "PRIVADA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+      "url_programa": "https://utel.edu.mx/licenciatura-en-ingenieria-industrial",
+      "fuentes": [
+        {
+          "url": "https://utel.edu.mx/licenciatura-en-ingenieria-industrial",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+          "uso": "Colegiatura mensual de lista, promoción e inscripción gratuita"
+        }
+      ],
+      "observacion_unica": "https://primerpaso.utel.edu.mx/products/ingenieria-industrial-en-linea",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": true,
+      "estado_precio": "TARIFA_Y_PROMOCION_PUBLICADAS",
+      "otros_costos": [],
+      "programa_cun": "INGENIERÍA DE PRODUCCIÓN"
+    },
+    {
+      "id": "EAN-REV-20261104-5",
+      "programa_id": "mercadeo-y-estrategia-comercial",
+      "programa_mexico": "Licenciatura en Mercadotecnia Internacional",
+      "institucion": "Universidad Abierta y a Distancia de México",
+      "precio_mxn": 0,
+      "precio_promocional_mxn": null,
+      "unidad": "SERVICIOS_ACADEMICOS_GRATUITOS",
+      "tipo_relacion": "AFINIDAD_PROFESIONAL",
+      "matricula_inicial_mxn": 0,
+      "reinscripcion_mxn": 0,
+      "costos_adicionales": "Equipo, conectividad, desplazamientos, prácticas y gastos personales no se consideran cubiertos por esta gratuidad.",
+      "notas": "UnADM publica gratuidad de los servicios educativos; es un referente público con subsidio estatal, separado del precio privado. La admisión requiere nacionalidad mexicana y convocatoria; no es una oferta comercial abierta sin requisitos.",
+      "modalidad_publicada": "A distancia · UnADM",
+      "tipo_institucion": "PUBLICA",
+      "fecha_consulta": "2026-11-04",
+      "url_oficial": "https://www.unadmexico.mx/preguntas-frecuentes",
+      "url_programa": "https://www.unadmexico.mx/convocatoria2026/dcsa_mi.html",
+      "fuentes": [
+        {
+          "url": "https://www.unadmexico.mx/convocatoria2026/dcsa_mi.html",
+          "uso": "Oferta y modalidad"
+        },
+        {
+          "url": "https://www.unadmexico.mx/preguntas-frecuentes",
+          "uso": "Preguntas frecuentes: gratuidad de servicios y requisitos de nacionalidad mexicana"
+        },
+        {
+          "url": "https://www.unadmexico.mx/convocatoria2026/tulugar/",
+          "uso": "Convocatoria 2026: licenciaturas a distancia gratuitas"
+        }
+      ],
+      "observacion_unica": "https://www.unadmexico.mx/convocatoria2026/dcsa_mi.html#gratuidad",
+      "estado_fuente": "WEB_OFICIAL_REVISADA_2026_11_04",
+      "nivel": "PREGRADO",
+      "es_precio_publicado": true,
+      "estado_precio": "GRATUIDAD_INSTITUCIONAL_PUBLICADA",
+      "otros_costos": [],
+      "programa_cun": "MERCADEO Y ESTRATEGIA COMERCIAL"
+    }
+  ]
+}

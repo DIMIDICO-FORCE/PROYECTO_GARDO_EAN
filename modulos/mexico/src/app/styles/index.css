@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root,:root[data-theme="dark"]{
+  --c-gray-950:3 7 18;--c-gray-900:17 24 39;--c-gray-800:31 41 55;--c-gray-700:55 65 81;--c-gray-500:156 163 175;--c-gray-300:209 213 219;--c-gray-200:229 231 235;
+  --c-cyan-950:8 51 68;--c-cyan-700:14 116 144;--c-cyan-600:8 145 178;--c-cyan-500:6 182 212;--c-cyan-300:103 232 249;--c-borde-gray-700:75 85 99;
+  --bi-canvas:#030712;--bi-panel:#1f2937;--bi-panel-muted:#111827;--bi-map-empty:#273447;--bi-text:#e5e7eb;--bi-muted:#b0bccd;--bi-border:#485568;--bi-accent:#06b6d4;--bi-soft:#083344;--bi-warning:#fde68a;color-scheme:dark;
+}
+:root[data-theme="light"]{
+  --c-gray-950:249 250 251;--c-gray-900:243 244 246;--c-gray-800:255 255 255;--c-gray-700:226 232 240;--c-gray-500:75 85 99;--c-gray-300:55 65 81;--c-gray-200:31 41 55;
+  --c-cyan-950:207 250 254;--c-cyan-700:14 116 144;--c-cyan-600:8 145 178;--c-cyan-500:21 94 117;--c-cyan-300:21 94 117;--c-borde-gray-700:148 163 184;
+  --bi-canvas:#f8fafc;--bi-panel:#fff;--bi-panel-muted:#f1f5f9;--bi-map-empty:#e4edf5;--bi-text:#172033;--bi-muted:#475569;--bi-border:#a9b7c7;--bi-accent:#0e7490;--bi-soft:#cffafe;--bi-warning:#92400e;color-scheme:light;
+}

@@ -1,0 +1,49 @@
+/* Etapa 2: vista territorial con fuentes oficiales; conserva sistema visual Peru. */
+.atlas-page .atlas-filters{grid-template-columns:minmax(190px,1fr) minmax(190px,1fr) minmax(175px,1fr) auto}
+.atlas-page .atlas-tabs{display:flex;gap:8px;overflow-x:auto;margin:16px 0;scrollbar-width:thin;padding-bottom:4px}
+.atlas-page .atlas-tabs button{flex:none;border:1px solid var(--pm-border);background:var(--pm-card);color:var(--pm-sub);padding:12px 15px;border-radius:10px;font-size:12px;font-weight:800;min-height:40px}
+.atlas-page .atlas-tabs button.active{color:#fff;background:linear-gradient(105deg,#056a92,#215bb3);border-color:#1572a9}
+.atlas-page .atlas-grid{display:grid;grid-template-columns:minmax(240px,.74fr) minmax(480px,1.8fr);gap:15px;align-items:start}
+.atlas-page .atlas-pad{padding:21px;min-width:0}
+.atlas-page .atlas-pad h2{font-size:17px;color:var(--pm-text);font-weight:800;margin:0 0 10px}
+.atlas-page .atlas-pad h3{font-size:13px;color:var(--pm-text);font-weight:800;margin:22px 0 8px}
+.atlas-page .atlas-muted{color:var(--pm-sub);font-size:12px;line-height:1.6;margin:8px 0 17px}
+.atlas-page .atlas-city-list{max-height:540px;overflow:auto;scrollbar-width:thin}
+.atlas-page .atlas-city-list button{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:transparent;color:var(--pm-text);border:0;border-bottom:1px solid var(--pm-border);padding:13px 8px;font-size:12px}
+.atlas-page .atlas-city-list button b{color:var(--pm-accent);font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.atlas-page .atlas-city-list button:hover,.atlas-page .atlas-city-list button.selected{background:#0891b225;border-radius:8px}
+.atlas-page .atlas-section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.atlas-page .atlas-section-title small{color:var(--pm-accent);font-size:11px;font-weight:800}
+.atlas-page .atlas-bar{padding:11px 0;border-top:1px solid var(--pm-border)}
+.atlas-page .atlas-bar-label,.atlas-page .atlas-percent>div:first-child{display:flex;align-items:baseline;justify-content:space-between;gap:10px;color:var(--pm-text);font-size:12px}
+.atlas-page .atlas-bar-label b,.atlas-page .atlas-percent strong{color:var(--pm-accent);font-size:13px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.atlas-page .atlas-track{height:8px;background:var(--pm-card2);border-radius:16px;overflow:hidden;margin:9px 0}
+.atlas-page .atlas-track>i{height:100%;border-radius:16px;display:block;background:linear-gradient(90deg,#2563eb,#22d3ee)}
+.atlas-page .atlas-bar>small{color:var(--pm-sub);font-size:10px}
+.atlas-page .atlas-money-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+.atlas-page .atlas-money-grid>div{background:var(--pm-card2);border:1px solid var(--pm-border);padding:18px;border-radius:13px}
+.atlas-page .atlas-money-grid span{display:block;font-size:11px;color:var(--pm-sub)}
+.atlas-page .atlas-money-grid strong{display:block;margin:7px 0;font-size:clamp(21px,2.3vw,27px);font-weight:900;color:var(--pm-text);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.atlas-page .atlas-money-grid small{color:var(--pm-accent);display:block;font-size:11px}
+.atlas-page .atlas-callout{margin:20px 0;background:#0891b212;border:1px solid #0891b233;padding:17px;border-radius:13px}
+.atlas-page .atlas-callout b,.atlas-page .atlas-callout strong{display:block;color:var(--pm-text);font-size:13px}
+.atlas-page .atlas-callout strong{font-size:18px;margin:9px 0}
+.atlas-page .atlas-callout p,.atlas-page .atlas-callout small{font-size:11px;line-height:1.6;color:var(--pm-sub)}
+.atlas-page .atlas-hero-value{font-size:34px;letter-spacing:-.035em;color:var(--pm-accent);font-weight:900;padding:12px 0;font-variant-numeric:tabular-nums}
+.atlas-page .atlas-hero-value>small{font-size:11px;display:block;line-height:1.6;color:var(--pm-sub);letter-spacing:normal;font-weight:500}
+.atlas-page .atlas-percent{padding:17px 0;border-top:1px solid var(--pm-border)}
+.atlas-page .atlas-inline-filters{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}
+.atlas-page .atlas-inline-filters :is(select,input){background:var(--pm-card2);color:var(--pm-text);border:1px solid var(--pm-border);padding:11px;border-radius:9px;flex:1;min-width:180px;font-size:12px}
+.atlas-page .atlas-school-list{max-height:335px;overflow-y:auto}
+.atlas-page .atlas-school-list>div{padding:11px 0;border-bottom:1px solid var(--pm-border);display:flex;justify-content:space-between;gap:15px;align-items:baseline}
+.atlas-page .atlas-school-list b{font-size:12px;color:var(--pm-text)}
+.atlas-page .atlas-school-list span{font-size:11px;color:var(--pm-accent);white-space:nowrap}
+@media(max-width:1120px){.atlas-page .atlas-grid{grid-template-columns:1fr 1.45fr}.atlas-page .atlas-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.atlas-page .atlas-grid{grid-template-columns:1fr}.atlas-page .atlas-city-list{max-height:220px}}
+@media(max-width:590px){.atlas-page .atlas-filters{grid-template-columns:1fr}.atlas-page .atlas-money-grid{grid-template-columns:1fr}.atlas-page .atlas-pad{padding:14px}.atlas-page .atlas-school-list>div{display:block}.atlas-page .atlas-school-list span{display:block;margin-top:5px}}
+
+.atlas-page .atlas-money-grid .atlas-sector-name{font-size:clamp(15px,1.6vw,19px);line-height:1.35;letter-spacing:-.01em}
+.atlas-page .atlas-bar-label span{min-width:0;overflow-wrap:anywhere;max-width:84%}
+.atlas-page .atlas-link-button{display:inline-flex;margin:14px 0;padding:11px 14px;background:var(--pm-card2);border:1px solid var(--pm-border);border-radius:10px;color:var(--pm-accent);font-weight:750;font-size:12px;cursor:pointer}
+.atlas-page .atlas-field{display:grid;gap:5px;color:var(--pm-sub);font-weight:750;font-size:11px;width:100%}
+.atlas-page .atlas-field select{display:block;width:100%}

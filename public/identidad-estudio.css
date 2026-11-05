@@ -1,0 +1,202 @@
+/* Identidad común: evidencia editorial, superficies cálidas y acento botánico.
+   Se conserva la geometría funcional de mapas, gráficos, tablas y navegación móvil. */
+html:root{--ed-bg:#18231f;--ed-paper:#1f2d26;--ed-soft:#26372d;--ed-line:#43534a;--ed-ink:#edf1e9;--ed-muted:#bac8bd;--ed-accent:#b4d2a3;--ed-selected:#304733;--ed-warn:#e7bd81;--ed-radius:8px;--ed-heading:Georgia,"Times New Roman",serif;--ed-body:"Segoe UI",Arial,sans-serif}
+html:root[data-theme=light]{--ed-bg:#f4f2eb;--ed-paper:#fffef9;--ed-soft:#edece3;--ed-line:#cdd3c6;--ed-ink:#263a30;--ed-muted:#546457;--ed-accent:#365e40;--ed-selected:#e0e8d7;--ed-warn:#805727;color-scheme:light}
+html:root[data-theme=dark]{color-scheme:dark}
+html:root[data-theme]{--bg:var(--ed-bg);--panel:var(--ed-paper);--panel2:var(--ed-soft);--side:var(--ed-bg);--line:var(--ed-line);--text:var(--ed-ink);--muted:var(--ed-muted);--green:var(--ed-accent);--blue:var(--ed-accent);--purple:var(--ed-accent)}
+html:root[data-theme] .peru-mx-app{--pm-bg:var(--ed-bg);--pm-side:var(--ed-bg);--pm-card:var(--ed-paper);--pm-card2:var(--ed-soft);--pm-border:var(--ed-line);--pm-text:var(--ed-ink);--pm-sub:var(--ed-muted);--pm-accent:var(--ed-accent);--pm-accent2:var(--ed-accent);font-family:var(--ed-body)}
+html:root body{font-family:var(--ed-body);color:var(--ed-ink);background:var(--ed-bg);-webkit-font-smoothing:antialiased}
+/* La barra superior representa capítulos; el menú lateral, herramientas. */
+html:root .module-bar{background:var(--ed-paper);border-color:var(--ed-line);gap:18px;padding:9px 20px}
+html:root .module-bar :is(button,a,.project-name),html:root .module-bar .project-name strong{color:var(--ed-ink)}
+html:root .module-bar nav{gap:4px}
+html:root .module-bar nav button{border-radius:0;padding:10px 13px;border-bottom:2px solid transparent;font-weight:500}
+html:root .module-bar nav button[aria-pressed=true]{background:transparent;color:var(--ed-accent);border-bottom-color:var(--ed-accent);font-weight:700}
+html:root .module-purpose{background:var(--ed-bg);border-color:var(--ed-line);color:var(--ed-muted);padding:7px 20px;font-size:11px}
+html:root :is(.sidebar,.portal19-sidebar){background:var(--ed-bg)!important;border-right:1px solid var(--ed-line);padding:22px 14px}
+html:root :is(.brand,.peru-mx-brand){gap:11px;padding:4px 8px 26px;line-height:1.5}
+html:root :is(.brand-icon,.peru-mx-monograma){background:transparent;border:1px solid var(--ed-accent);border-radius:3px;box-shadow:none;color:var(--ed-accent);font:30px/1 var(--ed-heading);width:36px;height:42px}
+html:root .portal19 :is(.peru-mx-brand b,.peru-mx-brand small),html:root .brand{color:var(--ed-ink)}
+html:root :is(.radar-caption,.peru-mx-sidebar-caption){color:var(--ed-muted);letter-spacing:.11em;font-size:10px;font-weight:600}
+html:root .nav a,html:root .portal19 .peru-mx-menu-item{background:transparent;color:var(--ed-muted);border-radius:0;border-left:2px solid transparent;box-shadow:none;padding:11px 12px;font-size:13px;font-weight:500;line-height:1.5}
+html:root .nav a.active,html:root .portal19 .peru-mx-menu-item.actual{background:var(--ed-selected);border-left-color:var(--ed-accent);color:var(--ed-ink);box-shadow:none;font-weight:650}
+html:root .nav a:hover,html:root .portal19 .peru-mx-menu-item:hover{background:var(--ed-soft);color:var(--ed-ink)}
+html:root .portal19 .peru-mx-menu-item svg{width:16px;height:16px;stroke-width:1.5;opacity:.8}
+/* Titulares editoriales; las cifras y las etiquetas conservan tipografía de lectura. */
+html:root .main,html:root .portal19-main{padding:28px clamp(18px,2.4vw,38px) 44px}
+html:root .main h1,html:root .portal19-header h1{font:400 clamp(29px,3vw,43px)/1.18 var(--ed-heading);letter-spacing:-.025em;color:var(--ed-ink);margin:10px 0 14px}
+html:root .main :is(h2,h3),html:root .portal19 :is(h2,h3){letter-spacing:-.015em;font-weight:600}
+html:root .portal19-header{align-items:start;gap:24px;margin-bottom:26px;border-bottom:1px solid var(--ed-line);padding-bottom:22px}
+html:root .portal19-header p,html:root .main .international-heading p{font-size:14px;line-height:1.7;color:var(--ed-muted);max-width:76ch}
+html:root .portal19-header>div>span,html:root .main .eyebrow,html:root .op-kicker{color:var(--ed-accent);letter-spacing:.09em;font-size:10px;font-weight:650}
+html:root .portal19 .peru-mx-status{border:0;background:transparent;box-shadow:none;padding:7px 0;color:var(--ed-muted);font-size:11px;white-space:nowrap}
+html:root .portal19 .peru-mx-status i{background:var(--ed-accent);box-shadow:none}
+/* Los paneles contienen análisis; las métricas se comparan en franjas abiertas. */
+html:root .main :is(.card,.lectura-estudio,.mi-types>article,.mi-cases>article),html:root .portal19 :is(.peru-mx-panel,.ciudad-panel){border:1px solid var(--ed-line);border-radius:var(--ed-radius);background:var(--ed-paper);box-shadow:none}
+html:root .main .section,html:root .portal19-pad{padding:26px}
+html:root .main .lectura-estudio{border:0;border-top:3px solid var(--ed-accent);border-radius:0;padding:24px;margin-top:14px;background:transparent}
+html:root .main .lectura-estudio h2{font:400 clamp(25px,2.5vw,34px)/1.3 var(--ed-heading);max-width:40ch}
+html:root .main .lectura-cifra{gap:40px;margin:24px 0}
+html:root .main .lectura-cifra b{font-size:42px;font-weight:500;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--ed-accent)}
+html:root .main .lectura-grid p{font-size:14px}
+html:root .portal19 .portal19-card-grid{gap:0;border-block:1px solid var(--ed-line);padding:18px 0;margin:22px 0;background:transparent}
+html:root .portal19 .portal19-card-grid>.portal19-card{border:0;border-radius:0;background:transparent;box-shadow:none;padding:6px 20px;border-left:1px solid var(--ed-line)}
+html:root .portal19 .portal19-card-grid>.portal19-card:first-child{border-left:0;padding-left:0;border-top:0}
+html:root .portal19 .portal19-card-grid .portal19-card strong{font-size:36px;font-weight:500;letter-spacing:-.035em;line-height:1.25;font-variant-numeric:tabular-nums}
+html:root .portal19 .portal19-card-grid .portal19-card>span{font-size:12px;font-weight:600;line-height:1.6}
+html:root .portal19 .portal19-card-grid .portal19-card small{font-size:12px;line-height:1.7;margin-top:10px}
+html:root .portal19 .portal19-card-grid button{font-size:12px;margin-top:12px;padding:6px 0;border:0;border-bottom:1px solid var(--ed-line);border-radius:0;background:transparent;color:var(--ed-accent)}
+html:root .main .ean-stat{border-radius:3px;border:0;border-left:2px solid var(--ed-line);background:transparent;padding:12px 18px}
+html:root .main .ean-stat strong{font-weight:500;font-size:30px;font-variant-numeric:tabular-nums}
+html:root .main .ean-stat small{font-size:12px}
+html:root .portal19 .portal19-two{gap:24px}
+/* Controles de trabajo, sin apariencia de tarjetas adicionales. */
+html:root .portal19 :is(select,input[type=search],input[type=number],.portal19-input),html:root .main :is(select,input[type=search],input[type=number]){font-family:var(--ed-body);font-size:13px;border-radius:5px;background:var(--ed-paper)!important;color:var(--ed-ink)!important;border-color:var(--ed-line)!important;min-height:38px;box-shadow:none}
+html:root :is(.portal19,.main) select option{background:var(--ed-paper);color:var(--ed-ink)}
+html:root .portal19 :is(.peru-mx-reset,.portal19-tabbar button),html:root .main .ean-panel button:not(.ayuda-dato){border-radius:5px;background:var(--ed-soft);border:1px solid var(--ed-line);color:var(--ed-ink);font-size:13px;box-shadow:none}
+html:root .portal19 .portal19-tabbar{border-bottom:1px solid var(--ed-line);gap:0;padding-bottom:0}
+html:root .portal19 .portal19-tabbar button{background:transparent;border:0;border-bottom:2px solid transparent;border-radius:0;padding:11px 16px;color:var(--ed-muted)}
+html:root .portal19 .portal19-tabbar button.active{background:transparent;color:var(--ed-accent);border-bottom-color:var(--ed-accent)}
+html:root .portal19 .op-group-filter button{border-radius:4px;font-size:12px;background:var(--ed-paper);color:var(--ed-muted)}
+html:root .portal19 .op-group-filter button[aria-pressed=true]{background:var(--ed-selected);color:var(--ed-ink);border-color:var(--ed-accent);box-shadow:none}
+html:root :is(.portal19,.main) :is(a,button,input,select,summary,[tabindex="0"]):focus-visible{outline:2px solid var(--ed-accent);outline-offset:3px}
+html:root :is(.portal19,.main) :is(.portal19-note,.portal19-hint,.ean-note,.ref-stat,.op-filter-result){border-radius:3px;color:var(--ed-muted);font-size:12px;line-height:1.75}
+html:root .portal19 :is(.portal19-note,.op-filter-result){background:var(--ed-soft);border:0;border-left:2px solid var(--ed-accent)}
+/* Densidad y navegación dentro de la evidencia. */
+html:root .portal19 :is(.opportunities p,.opportunities li,.op-lectura dd,.portal19-row p),html:root .main :is(.sub,.mi-cases dd,.module-synthesis p){font-size:14px;line-height:1.8}
+html:root :is(.portal19,.main) :is(th,td){font-size:12px;line-height:1.65;padding:13px 12px;border-color:var(--ed-line)}
+html:root .portal19 th,html:root .main :is(th,.ean-table-wrap th){background:var(--ed-soft)!important;color:var(--ed-muted)!important;font-weight:650;letter-spacing:.015em}
+html:root .portal19 :is(.op-table,.ref-table,.portal19-list),html:root .main :is(.ean-table-wrap,.table-wrap){scrollbar-width:thin;scrollbar-color:var(--ed-line) transparent}
+html:root .portal19 .op-table .op-selected{background:var(--ed-selected)}
+html:root .portal19 .op-propuesta{padding:24px 0;margin-top:0;border-top:0;gap:36px}
+html:root .portal19 .op-propuesta h3{font:400 27px/1.4 var(--ed-heading)}
+html:root .portal19 .opportunities>section:first-child>h2{font:400 clamp(25px,2.6vw,35px)/1.3 var(--ed-heading);max-width:40ch}
+html:root .portal19 .op-route{font-size:11px;padding:10px 0;gap:14px;border-top:0;margin:14px 0}
+html:root .portal19 :is(.referentes-curriculares>article,.condiciones-economicas article){border-radius:5px;box-shadow:none}
+html:root .portal19 .sintesis-estudio article,html:root .main .module-synthesis article{padding:25px 0}
+html:root .portal19 .sintesis-estudio h2,html:root .main .module-synthesis article h2{font:400 24px/1.4 var(--ed-heading);max-width:52ch}
+html:root .portal19 .m22{--m22-accent:var(--ed-accent)}
+html:root .portal19 :is(.m22-panel,.m22-research,.m22-buyer,.m22-questions>div,.m22-kpi,.m22-stat){border-radius:5px;box-shadow:none;background:var(--ed-paper);border-color:var(--ed-line)}
+html:root .portal19 :is(.m22-panel h2,.portal19-title h2){font-size:21px;font-weight:600;line-height:1.4}
+html:root .portal19 .m22-intro{border-radius:0;background:transparent;border:0;border-bottom:1px solid var(--ed-line);padding:0 0 20px}
+html:root .portal19 .m22-intro h2{font:400 30px/1.3 var(--ed-heading)}
+html:root .portal19 .m22-intro{box-shadow:none;color:var(--ed-ink)}
+html:root .portal19 .m22-intro :is(h2,p,b){color:var(--ed-ink)}
+html:root .portal19 .m22-eyebrow{color:var(--ed-accent)}
+html:root .portal19 .m22-source-chip{border:0;border-radius:3px;background:var(--ed-soft);color:var(--ed-muted);font-size:11px;white-space:normal;max-width:240px;flex:none}
+html:root .portal19 .opportunities>section:first-child{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
+html:root .portal19 :is(.m22-kpi,.pre24-kpis article,.pub21-kpi){background:transparent;border:0;border-left:2px solid var(--ed-line);border-radius:0;box-shadow:none;padding:14px 18px}
+html:root .portal19 :is(.m22-kpi,.pre24-kpis article,.pub21-kpi) strong{font-size:30px;font-weight:500;font-variant-numeric:tabular-nums}
+html:root .portal19 :is(.m22-kpi,.pre24-kpis article,.pub21-kpi) small{font-size:12px;line-height:1.65}
+html:root .portal19 :is(.m22-audience-brief,.m22-research,.pub21-panel,.buyer24-identity,.buyer24-routine,.buyer24-trio>section,.buyer24-journey,.buyer24-conversion>div,.pre24-kpis article){border-radius:6px;box-shadow:none}
+html:root .portal19 .buyer24-identity{background:var(--ed-paper)}
+html:root .portal19 .buyer24-bigavatar{background:var(--ed-selected);color:var(--ed-accent);border:1px solid var(--ed-line);border-radius:5px;box-shadow:none;font-weight:500}
+html:root .portal19 .pub21-track i{background:var(--ed-accent)}
+html:root .portal19 .ciudad-dos>article{border:0;border-top:1px solid var(--ed-line);background:transparent;border-radius:0;box-shadow:none;padding:18px 0}
+html:root .portal19 .ciudad-dos{gap:28px}
+html:root .portal19 .ciudad-panel :is(p,small){font-size:13px;line-height:1.8}
+html:root .portal19 :is(.m22-tabs button.activo,.m22-tabs button[aria-pressed=true]){background:var(--ed-selected);color:var(--ed-ink);border-color:var(--ed-accent);box-shadow:none}
+html:root .portal19 :is(.m22-filters,[class*="shadow-"]){box-shadow:none}
+html:root .portal19 :is(.rounded-2xl,.rounded-3xl){border-radius:8px}
+html:root .portal19 :is(.m22-filters,.m22-filterline){background:var(--ed-paper);border:1px solid var(--ed-line);border-radius:6px;box-shadow:none}
+html:root .portal19 .m22-tabs button{background:transparent;box-shadow:none;border:1px solid var(--ed-line);border-radius:4px;color:var(--ed-muted);font-size:13px}
+html:root .portal19 .m22-tabs button[aria-pressed=true]{background:var(--ed-selected);color:var(--ed-ink);border-color:var(--ed-accent)}
+html:root .portal19 .buyer24-avatar{background:var(--ed-selected);color:var(--ed-accent);box-shadow:none;border-radius:4px}
+html:root .portal19 .buyer24-picker button{box-shadow:none;border-radius:5px}
+html:root .portal19 .buyer24-picker button.active,html:root .portal19 .buyer24-picker button.activo{border-color:var(--ed-accent);background:var(--ed-selected);box-shadow:none}
+html:root .main .country-kpis{gap:0;border-block:1px solid var(--ed-line);padding:10px 0}
+html:root .main .country-kpis>*{background:transparent;border:0;border-radius:0;box-shadow:none;border-right:1px solid var(--ed-line);padding:10px 16px}
+html:root .main .kpis{gap:0;border-bottom:1px solid var(--ed-line);padding:16px 0}
+html:root .main .kpis .kpi{border:0;border-left:1px solid var(--ed-line);border-radius:0;box-shadow:none;background:transparent;padding:8px 18px}
+html:root .main .kpis .kpi:first-child{border-left:0}
+html:root .main .kpis .bubble{display:none}
+html:root .main .kpis .kpi strong{font-size:31px;font-weight:500;line-height:1.3;font-variant-numeric:tabular-nums}
+html:root .main .kpis .kpi small{font-size:12px;line-height:1.7}
+html:root .main .ean-pedagogia-table td:first-child{background:var(--ed-soft)}
+html:root .main .ean-pedagogia-table .ean-own td{background:var(--ed-selected)}
+html:root .main a{color:var(--ed-accent)}
+@media(max-width:940px){html:root .portal19 .exp-summary{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:600px){html:root .portal19 .exp-summary{grid-template-columns:1fr!important}html:root .main .kpis .kpi{border:0;border-top:1px solid var(--ed-line);padding:15px 0}html:root .main .country-kpis>*{padding:10px;border:0;border-bottom:1px solid var(--ed-line)}}
+@media(max-width:940px){html:root .radar-mobile{position:sticky;top:0;z-index:20;padding:10px 0;background:var(--ed-bg);border-bottom:1px solid var(--ed-line)}}
+@media(max-width:600px){html:root .main .lectura-cifra{display:grid;grid-template-columns:1fr 1fr;gap:18px}html:root .main .lectura-cifra>span{min-width:0;font-size:11px}}
+@media(max-width:940px){html:root .main [id]{scroll-margin-top:85px}}
+/* Azul de lectura de datos solicitado; el verde sigue identificando a EAN. */
+html:root{--ed-data:#67e8f9;--ed-pattern-opacity:.12}
+html:root[data-theme=light]{--ed-data:#087a96;--ed-pattern-opacity:.06}
+html:root .main .ean-rank-track{background:var(--ed-soft)}
+html:root .main .ean-rank-track span{background:var(--ed-data)}
+html:root .main .ean-rank-row.is-ean .ean-rank-track span{background:var(--ed-accent)}
+html:root .main :is(.ean-market-filters,.ean-controls){background:var(--ed-soft);border-color:var(--ed-line)}
+html:root :is(.brand,.peru-mx-brand){flex-direction:column;align-items:flex-start;gap:12px;padding-bottom:20px;white-space:normal}
+html:root .ean-institutional-logo{display:block;width:136px;height:auto;max-width:100%;object-fit:contain;border:0;border-radius:3px}
+html:root .brand>span,html:root .peru-mx-brand>span{font-size:11px;line-height:1.6;letter-spacing:.025em;font-weight:650}
+html:root .portal19{--bi-bg:var(--ed-bg);--bi-panel:var(--ed-paper);--bi-panel-muted:var(--ed-soft);--bi-text:var(--ed-ink);--bi-muted:var(--ed-muted);--bi-border:var(--ed-line)}
+html:root .portal19 .legal-cun-table tbody tr{background:var(--ed-paper)}
+html:root .portal19 .legal-cun-table tbody tr:nth-child(even){background:var(--ed-soft)}
+html:root .portal19 .legal-cun-table :is(th,td){color:var(--ed-ink);border-color:var(--ed-line)}
+html:root .portal19 .ciudad-panel>.kicker{color:var(--ed-accent);font-size:11px;font-weight:650;letter-spacing:.06em}
+html:root .portal19 .ciudad-panel a{color:var(--ed-data)}
+html:root .portal19 [data-testid=programa-fondo]{color:var(--ed-ink)}
+html:root .portal19 [data-testid=programa-fondo] [class*="bg-gray-"]{background:var(--ed-paper)!important;backdrop-filter:none;box-shadow:none;border-color:var(--ed-line)}
+html:root .portal19 [data-testid=programa-fondo] [class*="text-gray-"]{color:var(--ed-muted)!important}
+html:root .portal19 [data-testid=programa-fondo] [class*="text-cyan-"]{color:var(--ed-data)!important}
+html:root .portal19 [data-testid=programa-fondo] [class*="bg-cyan-"]{background:var(--ed-selected)!important;color:var(--ed-ink)!important;border-color:var(--ed-accent)}
+html:root .portal19 [data-testid=programa-fondo] .font-black{font-weight:600}
+html:root .portal19 [data-testid=programa-fondo]>header{background:transparent!important;border:0;border-bottom:1px solid var(--ed-line);border-radius:0;padding:10px 0 24px;box-shadow:none;backdrop-filter:none}
+html:root .portal19 [data-testid=programa-fondo]>header h2{font:400 30px/1.4 var(--ed-heading)}
+html:root .portal19 [data-testid=programa-fondo]>header h2.font-black{font-weight:400}
+html:root .portal19 [data-testid=programa-fondo] .programa-summary{gap:0;border-block:1px solid var(--ed-line);padding:20px 0;margin-block:22px}
+html:root .portal19 [data-testid=programa-fondo] .programa-summary>*{background:transparent!important;border:0;border-left:1px solid var(--ed-line);border-radius:0;box-shadow:none;padding:6px 22px}
+html:root .portal19 [data-testid=programa-fondo] .programa-summary>:first-child{border-left:0;padding-left:0}
+html:root .portal19 [data-testid=programa-fondo] .programa-summary .font-black{font-size:22px;font-weight:500;line-height:1.45}
+@media(max-width:767px){html:root .portal19 [data-testid=programa-fondo] .programa-summary>*{border:0;border-top:1px solid var(--ed-line);padding:17px 0}html:root .portal19 [data-testid=programa-fondo] .programa-summary>:first-child{border-top:0}}
+html:root .portal19 [data-testid=programa-fondo]>nav button,html:root .portal19 [data-testid=programa-fondo]>div>button{border-radius:4px;font-size:13px}
+/* Ondas de identidad: solo en cabeceras, separadas de las áreas de datos. */
+html:root .portal19-header,html:root .main .ean-market-header,html:root .main .international-heading{position:relative;isolation:isolate}
+html:root .portal19-header::after,html:root .main .ean-market-header::after,html:root .main .international-heading::after{content:"";position:absolute;right:0;top:-10px;width:200px;height:130px;pointer-events:none;z-index:-1;opacity:var(--ed-pattern-opacity);background:repeating-radial-gradient(circle at 85% 30%,transparent 0 10px,var(--ed-data) 11px 12px,transparent 13px 20px);border-radius:0 0 55% 0;mask-image:linear-gradient(to left,#000,transparent)}
+@media(max-width:940px){html:root .ean-institutional-logo{width:122px}html:root .portal19-header::after,html:root .main .international-heading::after{width:110px;height:95px}}
+html:root .portal19 .m22 :is(.m22-tabs,.m22-nav) button.active{background:var(--ed-selected);color:var(--ed-ink);box-shadow:none;border-color:var(--ed-accent)}
+html:root .portal19 .portal19-footer{font-size:11px;line-height:1.8;color:var(--ed-muted)}
+html:root .portal19 .portal19-footer a{color:var(--ed-accent)}
+html:root .main .alert{background:var(--ed-soft);color:var(--ed-muted);border-left-color:var(--ed-warn);border-radius:3px;font-size:12px}
+@media(max-width:1000px){html:root .module-bar{flex-wrap:wrap;gap:8px}html:root .module-bar nav{order:3;flex-basis:100%}html:root .project-name{flex:1}}
+@media(max-width:940px){html:root .portal19 .portal19-card-grid{grid-template-columns:1fr}html:root .portal19 .portal19-card-grid>.portal19-card{border-left:0;border-top:1px solid var(--ed-line);padding:16px 0}html:root .portal19 .portal19-card-grid>.portal19-card:first-child{border-top:0}html:root .main,html:root .portal19-main{padding:18px 16px 32px}html:root .portal19-header{gap:12px;flex-wrap:wrap}html:root .portal19-header h1{font-size:32px}html:root :is(.sidebar,.portal19-sidebar){padding:18px 14px}html:root .portal19 .portal19-mobile,html:root .radar-mobile{color:var(--ed-ink);border-color:var(--ed-line);background:var(--ed-bg)}}
+@media(max-width:600px){html:root .module-bar{padding:8px 12px}html:root .module-bar nav button{padding:8px 6px;font-size:11px}html:root .module-purpose{padding:6px 12px}html:root .main .section,html:root .portal19-pad{padding:19px}html:root .portal19 .op-propuesta h3{font-size:23px}html:root .main .lectura-cifra b{font-size:35px}html:root .portal19 .sintesis-estudio h2,html:root .main .module-synthesis article h2{font-size:22px}}
+@media(prefers-reduced-motion:reduce){html:root :is(.portal19,.main) *{scroll-behavior:auto!important;transition:none!important}}
+/* Lectura de datos: azul solo para las series; divisiones y estados neutros. */
+html:root :is(.brand,.peru-mx-brand){align-items:center;text-align:center;border-bottom:1px solid var(--ed-line);padding:0 6px 20px;margin-bottom:18px}
+html:root .ean-institutional-logo{margin-inline:auto;width:132px}
+html:root :is(.brand>span,.peru-mx-brand>span){max-width:190px;font-weight:600}
+html:root :is(.radar-caption,.peru-mx-sidebar-caption){font-size:10px;letter-spacing:.06em;line-height:1.7;margin:0 10px 12px;color:var(--ed-muted)}
+html:root .sidebar{position:sticky;top:0;isolation:isolate}
+html:root .sidebar::before,html:root .portal19-sidebar::before{content:"";position:absolute;left:10px;top:12px;width:calc(100% - 20px);height:130px;pointer-events:none;opacity:.07;background:repeating-radial-gradient(circle at 50% 45%,transparent 0 12px,var(--ed-accent) 13px 14px,transparent 15px 24px);mask-image:linear-gradient(#000,transparent);z-index:-1}
+html:root .portal19-sidebar{isolation:isolate}
+html:root .main .ean-rank-row{grid-template-columns:26px minmax(0,1fr) 100px;gap:12px;padding:15px 8px;border-bottom:1px solid var(--ed-line)}
+html:root .main .ean-rank-institution strong{font-size:12px;line-height:1.5;color:var(--ed-ink)}
+html:root .main .ean-rank-track{height:10px;margin-top:10px;border-radius:4px;background:var(--ed-soft)}
+html:root .main .ean-rank-track span{height:100%;border-radius:4px}
+html:root .main .ean-rank-row>b{font-size:14px;color:var(--ed-ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+html:root .main :is(.ean-rank-pos,.ean-scale,.ean-trend-legend,.ean-series-legend){color:var(--ed-muted)}
+html:root .main :is(.co-city-row,.co-career-row){border-color:var(--ed-line)}
+html:root .main .co-bar{height:10px;background:var(--ed-soft)}
+html:root .main .co-career-row .co-bar{height:15px}
+html:root :is(.main,.portal19) tbody tr:hover>:is(td,th),html:root :is(.main,.portal19) tbody tr:focus-within>:is(td,th){background:var(--ed-selected)!important;color:var(--ed-ink)!important}
+html:root :is(.main,.portal19) tbody tr:hover :is(td,th) :is(span,p,small,b,strong,div),html:root :is(.main,.portal19) tbody tr:focus-within :is(td,th) :is(span,p,small,b,strong,div){color:var(--ed-ink)!important}
+html:root :is(.main,.portal19) tbody tr:hover a,html:root :is(.main,.portal19) tbody tr:focus-within a{color:var(--ed-accent)!important;text-decoration:underline}
+html:root[data-theme=light] .main :is(.co-scope,.co-source,.co-series-key,.co-map-legend,.co-career-count,.co-city-row>span,.ean-market-scope,.co-controls label,.co-panel-head label){color:var(--ed-muted)!important}
+html:root[data-theme=light] .main :is(.co-city-row .co-place,.co-career-name,.co-warning b){color:var(--ed-ink)!important}
+html:root .main :is(.co-controls,.co-map-detail,.co-warning){background:var(--ed-soft);color:var(--ed-ink);border-color:var(--ed-line)}
+html:root .main :is(.co-warning,.ean-table-wrap,.ean-rank-track,.co-bar){box-shadow:none}
+@media(max-width:940px){html:root .sidebar{position:fixed}html:root .main .ean-rank-row{grid-template-columns:22px minmax(0,1fr) 82px;gap:8px}html:root .ean-institutional-logo{width:120px}}
+
+html:root .sidebar .nav a{display:flex;align-items:center;gap:11px}
+html:root .radar-nav-icon{width:16px;height:16px;flex:0 0 16px;color:var(--ed-muted)}
+html:root .sidebar .nav a.active .radar-nav-icon{color:var(--ed-accent)}
+
+html:root :is(.brand,.peru-mx-brand)>span>b{display:block;font-size:11px;font-weight:700;line-height:1.6;color:var(--ed-ink)}
+html:root :is(.brand,.peru-mx-brand)>span>small{display:block;font-size:10px;font-weight:400;line-height:1.6;letter-spacing:0;margin-top:4px;color:var(--ed-muted)}
+
+/* El foco sigue la silueta del estado, sin rectángulo sobre el mapa. */
+html:root .mapa18-state:focus{outline:none}
+html:root .mapa18-state:focus-visible{stroke:var(--ed-ink);stroke-width:2.5;vector-effect:non-scaling-stroke}
+

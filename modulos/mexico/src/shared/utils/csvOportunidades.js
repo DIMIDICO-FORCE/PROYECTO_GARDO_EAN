@@ -1,0 +1,7 @@
+/** Las capas nacional y por plantel se exportan separadas, sin imputar ausencias. */
+export function csvOportunidades(programas,revision){
+ const cell=v=>'"'+String(v??'').replace(/^[=+@-]/,"'$&").replaceAll('"','""')+'"';
+ const rows=[['Programa EAN','Prioridad de investigación','Razón','Matrícula EAN virtual 2025-2','Primer curso EAN virtual 2025-2','Nuevo ingreso nacional MX','Matrícula nacional MX','Tipo de relación nacional','Modalidad nacional MX','Ciclo nacional MX','Fuente nacional MX','Filas primarias por plantel MX','Nuevo ingreso primario por plantel MX','Filas afines por plantel MX','Nuevo ingreso afín por plantel MX','Referencias de precio','Fichas a distancia revisadas','Fuentes de oferta a distancia','Fuente EAN','Recomendación documental','Condición del programa','Revisión'],
+ ...programas.map(r=>[r.nombre,r.prioridad,r.razon,r.colombia.matricula,r.colombia.nuevos,r.mexico.nacional?.nuevos,r.mexico.nacional?.matricula,r.mexico.nacional?.tipo,r.mexico.nacional?.modalidad,r.mexico.nacional?.periodo,r.mexico.nacional?.fuente,r.mexico.directo.filas,r.mexico.directo.nuevos,r.mexico.afin.filas,r.mexico.afin.nuevos,r.precios.length,r.referentes_virtuales_revisados,r.referentes_web.filter(f=>f.verificacion_modalidad==='FUENTE_INSTITUCIONAL_REVISADA').map(f=>f.url).join(' | '),r.fuente_ean,r.lectura?.recomendacion,r.lectura?.condicion,revision])];
+ return '\ufeff'+rows.map(r=>r.map(cell).join(';')).join('\r\n');
+}

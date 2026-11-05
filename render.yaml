@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ean-inteligencia-academica
+    runtime: node
+    plan: free
+    buildCommand: npm run build && npm test
+    startCommand: npm start
+    healthCheckPath: /api/estado
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
+      - key: HOST
+        value: 0.0.0.0

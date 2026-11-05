@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EAN · Inteligencia académica</title>
+  <meta name="description" content="Proyecto de integración de Ingeniería de Sistemas: comparación de pregrados EAN y exploración de México con fuentes trazables.">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/domain.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <aside class="sidebar">
+    <div class="brand"><span class="mark">ea<span>n</span></span><div>Inteligencia<br><strong>académica</strong></div></div>
+    <p class="eyebrow">PROYECTO DE INTEGRACIÓN</p>
+    <nav aria-label="Módulos"><button data-view="colombia" class="active">01 <span>Colombia y competencia</span></button><button data-view="mexico">02 <span>Explorar México</span></button><button data-view="fuentes">03 <span>Cobertura y fuentes</span></button></nav>
+    <div class="catalog-head"><label for="buscar">PORTAFOLIO DE PREGRADOS</label><span id="cantidad"></span></div>
+    <input id="buscar" type="search" placeholder="Buscar un programa" autocomplete="off">
+    <div id="programas" class="program-list" aria-label="Seleccionar programa"></div>
+    <footer>Ingeniería de Sistemas · EAN<br>Desarrollo académico independiente<br><span>Versión 0.1 · Base de datos inicial</span></footer>
+  </aside>
+  <main id="contenido" tabindex="-1">
+    <header class="topbar"><span>OBSERVATORIO DE PREGRADOS</span><span id="fecha">Fuentes consultadas: 03 nov 2026</span></header>
+    <div id="estado" role="status" aria-live="polite">Cargando catálogo y fuentes…</div>
+    <div id="app" hidden>
+      <div class="page-heading"><div><p class="eyebrow" id="modulo"></p><h1 id="titulo"></h1><p id="subtitulo"></p></div><a id="ficha" class="link-button" target="_blank" rel="noopener noreferrer">Ficha oficial ↗</a></div>
+      <div class="filters"><label>Modalidad EAN<select id="modalidad"></select></label><label>Periodo SNIES<select id="semestre"><option value="2">2025 · semestre 2</option><option value="1">2025 · semestre 1</option></select></label><span id="scope"></span></div>
+      <section id="vista" aria-label="Análisis del programa"></section>
+    </div>
+  </main>
+</body>
+</html>
