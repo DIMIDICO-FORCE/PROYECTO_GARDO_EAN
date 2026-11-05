@@ -1,5 +1,7 @@
 # Inteligencia académica EAN
 
+**Aplicativo publicado:** https://ean-inteligencia-academica.onrender.com/
+
 Aplicativo de investigación documental para el proyecto de grado de Ingeniería de Sistemas. Integra tres módulos: posición y competencia en Colombia, referentes internacionales y oportunidades de expansión virtual en México.
 
 ## Ejecutar localmente
@@ -39,3 +41,5 @@ Esta copia excluye documentos personales, borradores de tesis y presentación, b
 ## Entrega a la universidad
 
 Consultar [ENTREGA_UNIVERSIDAD.md](docs/ENTREGA_UNIVERSIDAD.md). La tesis y la presentación se entregan por separado; no se publican automáticamente en este repositorio.
+
+Para actualizar el servicio existente después de un cambio en GitHub, abrir Render → ean-inteligencia-academica → Manual Deploy → Deploy latest commit. El servicio actual se conectó mediante la URL pública del repositorio.

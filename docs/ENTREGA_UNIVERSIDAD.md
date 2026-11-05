@@ -16,4 +16,6 @@ No usar los ZIP históricos que contienen un cuarto módulo: el producto vigente
 
 El ZIP técnico puede ejecutarse sin instalar dependencias: con Node.js 22.13 o posterior, ejecutar `npm start` y abrir http://127.0.0.1:5180/. Para reconstruir desde el código se necesita internet y `npm run build`.
 
-La URL de Render se agrega a la entrega cuando el despliegue haya terminado y haya sido verificado; no confundir el enlace al repositorio con el enlace del aplicativo.
+Aplicativo publicado y verificado: https://ean-inteligencia-academica.onrender.com/
+
+Incluir ambos enlaces en LEEME_ENTREGA.md y, si la plantilla lo permite, en el documento académico.
