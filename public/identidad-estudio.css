@@ -49,6 +49,8 @@ html:root .portal19 .portal19-card-grid button{font-size:12px;margin-top:12px;pa
 html:root .main .ean-stat{border-radius:3px;border:0;border-left:2px solid var(--ed-line);background:transparent;padding:12px 18px}
 html:root .main .ean-stat strong{font-weight:500;font-size:30px;font-variant-numeric:tabular-nums}
 html:root .main .ean-stat small{font-size:12px}
+html:root .main .mg-cambios{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:7px}
+html:root .main .mg-cambios strong{font-size:clamp(16px,1.65vw,24px);margin:2px 0 5px}
 html:root .portal19 .portal19-two{gap:24px}
 /* Controles de trabajo, sin apariencia de tarjetas adicionales. */
 html:root .portal19 :is(select,input[type=search],input[type=number],.portal19-input),html:root .main :is(select,input[type=search],input[type=number]){font-family:var(--ed-body);font-size:13px;border-radius:5px;background:var(--ed-paper)!important;color:var(--ed-ink)!important;border-color:var(--ed-line)!important;min-height:38px;box-shadow:none}

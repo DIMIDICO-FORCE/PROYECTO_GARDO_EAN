@@ -57,6 +57,7 @@
   'Posición general EAN':'Puesto de la EAN entre nombres institucionales, con toda la oferta del nivel y modalidad elegidos. Cambia al modificar filtros.',
   'Participación EAN':'Porcentaje del volumen seleccionado que corresponde a la EAN. Numerador: EAN; denominador: total del mismo universo.',
   'Cambio anual EAN':'Cambio porcentual frente al mismo corte del año anterior y con los mismos filtros. No compara semestres diferentes.',
+  'Cambio anual de EAN y mercado':'Compara la variación de la EAN y del mercado observado frente al mismo corte del año anterior, con el indicador, nivel, modalidad y sector seleccionados.',
   'Posición en oferta afín':'Ranking entre instituciones que reportan carreras relacionadas con el portafolio EAN seleccionado, agrupadas por código SNIES. No es el mismo universo del ranking general.',
   'Graduados: EAN frente a la competencia':'Compara titulaciones del año y nivel elegidos. Un mayor número de graduados no demuestra por sí solo mejor calidad ni mayor rentabilidad.',
   'Dónde se concentra el mercado académico':'El mapa ubica la oferta reportada por el programa. Para virtualidad, la sede registrada no permite deducir dónde viven los estudiantes.',
